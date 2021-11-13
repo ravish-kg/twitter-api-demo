@@ -28,6 +28,7 @@ const styles = {
 }
 
 function App() {
+  // For Demo purpose have created constant AUTH TOKEN, this should not be done in Production App
   const AUTH = 'AAAAAAAAAAAAAAAAAAAAAGPtVgEAAAAAY%2BrLwKlP7Q644eUys90YSMVsqvQ%3D4WgtgNooasdJWB9uBIRgBy5WzZRuvo362IIeWm0XK4ceHSHzuY';
 
   const [userName, setUserName] = useState("");
